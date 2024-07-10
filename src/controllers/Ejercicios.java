@@ -1,7 +1,6 @@
 package controllers;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class Ejercicios {
 
@@ -67,7 +66,7 @@ public class Ejercicios {
      * Output: null
      */
     public int[] sumatoriaDeDos(int[] nums, int objetivo) {
-        Map<Integer, Integer> map = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int complemento = objetivo - nums[i];
             if (map.containsKey(complemento)) {
