@@ -33,26 +33,26 @@ public class App {
     private static void runEjerccios() {
         Ejercicios ejercicios = new Ejercicios();
         // Test para sumatoriaDeDos
-        // int[] nums = { 11, 2, 7, -2 };
-        // int objetivo = 5;
-        // int[] resultado = ejercicios.sumatoriaDeDos(nums, objetivo);
-        // if (resultado != null) {
-        // System.out.println(
-        // "Suma de dos para objetivo " + objetivo + ": [" + resultado[0] + ", " +
-        // resultado[1] + "]");
-        // } else {
-        // System.out.println("No se encontraron dos números que sumen " + objetivo);
-        // }
+        int[] nums = { 11, 2, 7, -2 };
+        int objetivo = 5;
+        int[] resultado = ejercicios.sumatoriaDeDos(nums, objetivo);
+        if (resultado != null) {
+            System.out.println(
+                    "Suma de dos para objetivo " + objetivo + ": [" + resultado[0] + ", " +
+                            resultado[1] + "]");
+        } else {
+            System.out.println("No se encontraron dos números que sumen " + objetivo);
+        }
 
-        // objetivo = 10;
-        // resultado = ejercicios.sumatoriaDeDos(nums, objetivo);
-        // if (resultado != null) {
-        // System.out.println(
-        // "Suma de dos para objetivo " + objetivo + ": [" + resultado[0] + ", " +
-        // resultado[1] + "]");
-        // } else {
-        // System.out.println("No se encontraron dos números que sumen " + objetivo);
-        // }
+        objetivo = 10;
+        resultado = ejercicios.sumatoriaDeDos(nums, objetivo);
+        if (resultado != null) {
+            System.out.println(
+                    "Suma de dos para objetivo " + objetivo + ": [" + resultado[0] + ", " +
+                            resultado[1] + "]");
+        } else {
+            System.out.println("No se encontraron dos números que sumen " + objetivo);
+        }
 
         //// EJERCICIO 2
         // Test para areAnagrams
